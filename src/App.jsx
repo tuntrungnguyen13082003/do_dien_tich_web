@@ -5,7 +5,7 @@ const App = () => {
   // --- STATE QUẢN LÝ DỮ LIỆU ---
   const [image, setImage] = useState(null);
   const [mode, setMode] = useState('upload'); // 'upload', 'calibrate', 'measure', 'result'
-  
+   
   const [scale, setScale] = useState(1);
   const [offset, setOffset] = useState({ x: 0, y: 0 });
   const [isDragging, setIsDragging] = useState(false);
